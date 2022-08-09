@@ -1,0 +1,56 @@
+.card {
+  height: 300px;
+  width: 200px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.card > .card-morto {
+  background-color: indianred;
+  height: 300px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+}
+.card > .card-morto > div {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.card > .card-vivo {
+  background-color: darkseagreen;
+  height: 300px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.card > .card-vivo > div {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+span {
+  font-size: 16px;
+  margin: 0px;
+}
+
+img {
+  height: 180px;
+  width: 150px;
+}
